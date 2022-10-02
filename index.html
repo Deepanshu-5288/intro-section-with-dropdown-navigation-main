@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+<link rel="stylesheet" href="css/styles.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+ 
+<header>
+  <nav>
+    <img src="images/logo.svg" alt="logo">
+    <img class="menu-icon " src="images/icon-menu.svg" alt="icon-menu">
+    <div class="nav-div nav-div-hide">
+      <img class="close-menu " src="images/icon-close-menu.svg" alt="icon-close-menu">
+      <ul class="ul-left">
+        <li class="drop-down-list-value"> Features
+          <img class="arrow" src="images/icon-arrow-down.svg" alt="icon-arrow-down">
+          <ul class="drop-down-list drop-down-list-hide">
+            <li>
+              <img class="dop-down-img" src="images/icon-todo.svg" alt="icon-todo">
+              Todo list</li>
+            <li>
+              <img class="dop-down-img" src="images/icon-calendar.svg" alt="icon-calendar">
+              Calender</li>
+            <li>
+              <img class="dop-down-img" src="images/icon-reminders.svg" alt="icon-reminders">
+              Reminders</li>
+            <li>
+              <img class="dop-down-img" src="images/icon-planning.svg" alt="icon-planning">
+              Planning</li>
+          </ul>
+        </li>
+ <li class="drop-down-list-value"> Company
+  <img class="arrow" src="images/icon-arrow-down.svg" alt="icon-arrow-down">
+  <ul class="drop-down-list drop-down-list-hide drop-down-list-second">
+    <li>History</li>
+    <li>Our team</li>
+    <li>Blog</li>
+  </ul>
+ </li>
+ <li> Careers</li>
+ <li> About</li>
+      </ul>
+      <ul class="ul-right">
+        
+ <li> Login</li>
+ <li class="register"> Register</li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<main>
+ 
+<div class="left-side-main">
+  <h1 class="main-h1">Make remote work</h1>
+
+  <p class="main-p">Get your team in sync, no matter your location. Streamline processes, 
+  create team rituals, and watch productivity soar.</p>
+
+  <button class="learn-more-btn">Learn more</button>
+</div>
+<div class="right-side-main">
+  
+  <picture >
+    <source media="(max-width: 50rem)" srcset="images/image-hero-mobile.png">
+    <img class="desktop-img" src="images/image-hero-desktop.png" alt="image-hero-desktop">
+  </picture>
+</div>
+</main>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Deepanshu Gupta</a>.
+  </footer>
+
+  <script src="js/index.js"></script>
+</body>
+</html>
